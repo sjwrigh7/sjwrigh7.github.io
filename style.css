@@ -15,6 +15,7 @@ html * {
 /*$systemFonts: JetBrainsMono;
 $mainFont:JetBrainsMono; 
 */
+/*
 @font-face {
   font-family: "Computer Modern";
   src: url('https://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
@@ -34,6 +35,12 @@ $mainFont:JetBrainsMono;
   src: url('https://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
   font-weight: bold;
   font-style: italic, oblique;
+}
+*/
+
+@font-face {
+  font-family: "Computer Modern";
+  src: url(https://github.com/dreampulse/computer-modern-web-font/tree/master/font/Serif/)
 }
    
 :root {
