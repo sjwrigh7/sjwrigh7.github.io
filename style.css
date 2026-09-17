@@ -94,7 +94,7 @@ $mainFont:JetBrainsMono;
 
 html {
   font-size: 16px;
-  font-family: JetBrainsMono;
+  font-family: "Computer Modern";
   line-height: 1.6;
   color: var(--mainfont);
   background-color: var(--background);
