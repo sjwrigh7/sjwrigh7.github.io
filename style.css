@@ -17,21 +17,21 @@ $mainFont:JetBrainsMono;
 */
 @font-face {
   font-family: "Computer Modern";
-  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+  src: url('https://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
 }
 @font-face {
   font-family: "Computer Modern";
-  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+  src: url('https://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
   font-weight: bold;
 }
 @font-face {
   font-family: "Computer Modern";
-  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
+  src: url('https://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
   font-style: italic, oblique;
 }
 @font-face {
   font-family: "Computer Modern";
-  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
+  src: url('https://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
   font-weight: bold;
   font-style: italic, oblique;
 }
@@ -45,12 +45,12 @@ $mainFont:JetBrainsMono;
   --highlighttext: #26333b;
   */
 
-  --background: #26333b;
+  --background: #384b49;  /*#26333b*/
   --foreground: #384b49;
   --mainfont: #eafffd;
   --header: #995b36;
   --highlighttext: #a9ffe1;
-  --mainblockfill: #4c7273;
+  --mainblockfill: #26333b; /*#4c7273*/
   --mainblockbound: #c08b57;
   /*
   --background: #373645;
