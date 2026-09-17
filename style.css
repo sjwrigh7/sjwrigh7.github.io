@@ -16,11 +16,43 @@ html * {
 $mainFont:JetBrainsMono; 
 */
 @font-face {
-    font-family: 'JetBrainsMono'; /*a name to be used later*/
-    src: url('https://github.com/JetBrains/JetBrainsMono/tree/master/fonts/ttf'); /*URL to font*/
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunss.otf');
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsx.otf');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunsi.otf');
+  font-style: italic, oblique;
+}
+@font-face {
+  font-family: "Computer Modern";
+  src: url('http://mirrors.ctan.org/fonts/cm-unicode/fonts/otf/cmunbxo.otf');
+  font-weight: bold;
+  font-style: italic, oblique;
 }
    
 :root {
+  /*
+  --background: #c08b57;
+  --foreground: #5e7d78;
+  --header: #995b36;
+  --mainfont: #384b49;
+  --highlighttext: #26333b;
+  */
+
+  --background: #26333b;
+  --foreground: #384b49;
+  --mainfont: #eafffd;
+  --header: #995b36;
+  --highlighttext: #a9ffe1;
+  --mainblockfill: #4c7273;
+  --mainblockbound: #c08b57;
+  /*
   --background: #373645;
   --foreground: #F8F8F2;
   --selection: #44475A;
@@ -35,8 +67,10 @@ $mainFont:JetBrainsMono;
   --header: #823322;
   --mainfont: #bce9eb;
   --highlighttext: #242f36;
-  --mainblockfill: #1d2024;   /* background for sections */
-  --mainblockbound: #c97642;     /* border color for sections */
+  */
+  /*--mainblockfill: #1d2024;*/   /* background for sections */
+  /*--mainblockbound: #c97642;*/     /* border color for sections */
+  
 /*
   --mainColor: $foreground;
   --headingColor: $purple;
