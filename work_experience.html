@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Stephen Jay Wright</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+    </nav>
+    <h3>Work Experience</h3>
+    <nav>
+      <a href="#msresearch">M.S. Research</a>
+      <a href="#phdresearch">Ph.D. Research</a>
+      <a href="#lanlresearch">LANL Research</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h1>M.S. Research</h1>
+      <p>
+          I attented Clemson University for my M.S. in civil engineering,
+          with an emphasis in structural engineering, starting in the autumn of 2019 and
+          graduating in August of 2020.
+          <br>
+          My first semester, I did not have an advisor and so I was only doing coursework,
+          but I was able to find an advisor that semester, Dr. Laura Redmond. 
+          We began discussing different research topics and we eventually arrived on
+          the topic of retrofit of concrete strctural members. Specifically, the focus was
+          on novel column confinement methods to retrofit post-earthquake concrete columns.
+
+          We were interested in on-site application of additively manufactured column jacketing.
+          At first, we considered ultrasonic additive manufacturing, an emerging method for additive manufacturing of metals.
+          This proved not feasible at the time due to the cost requirements of ultrasonic additive manufacturing at the time.
+          We then turned our focus to 3D printed fiber reinforced polymers.
+
+          I began looking into various methods to test the mechanical properties of different polymer matrices
+          and the bond strength between these polymers and glass fibers as well as the bond strength between the
+          polymers and concrete surfaces.
+
+          <ul>
+            <li>Tensile testing of cured polymer dogbone specimens</li>
+            <li>Polymer-fiber shear bond testing</li>
+            <li>Polymer-concrete shear bond testing</li>
+            <li>Polymer-concrete tensile-bond testing</li>
+          </ul>
+      
+          While working on the experimental testing, I was simultaneously working on designing a
+          prototype 3D printer specifically for printing around 4" x 8" concrete cylinders;
+          however, at this time I realized that there were serious concerns about the curing time
+          necessary for the better performing polymers, which could pose a problem for a 3D printing application.
+          After some research polymer curing, I learned that some polymers can cure more quickly when heated.
+
+          While this could have potentially resolved the curing time issue at hand, it also introduced more
+          complexity to the problem, and ultimately changed the trajectory of the M.S. research.
+
+          Now that heat could be used to help with curing the polymer, there was a concern about the
+          affect that this heat might have on the mechanical properties of the concrete itself.
+
+          There is a plethora of research on the long-term effects of heat on concrete compressive strength in literature,
+          but the heating regimes anticipated for our application did not well-match those previously studied.
+          Thus, the focus of my research shifted from the retrofit of columns to investigating the effects of
+          heat on concrete compressive strength in non-standard heating regimes.
+
+          I conducted an experimental campaing examining the percentage of concrete compressive strength loss
+          for various exposure times and exposure temperatures of 4" x 8" concrete cylinders heated in a furnace.
+
+          Next, I created a finite element model of a single concrete cylinder to solve the transient heat transfer
+          of the cylinder in the furnace for each of the experimental test conditions.
+
+          I modeled convection boundary conditions on the cylinder faces using Nusselt number correlations with
+          a linearized radiation heat transfer term. The finite element model was calibrated to experimentally collected
+          temperature data from thermocouples placed on the cylinder surfaces, inside the cylinders, and measuring the
+          air temperature in the furnace.
+
+          With the calibrated finite element model's transient temperature field, I devised an algorithm to aggregate
+          cylinder's cross-sectional transient temperature over the heating and cooling regime into measures of total effective
+          time that the cylinder was inside specific temperature ranges, with the ranges taken from existing experimental
+          investigations of critical temperature ranges for different concrete compressive strength degredation mechanisms.
+
+          From here, I used a generalized linear model to estimate relate the percentage of concrete compressive strength loss
+          as a function of these total effective times from the algorithm, yielding strong results on the training data,
+          and proving effective for test data from other literature.
+
+
+
+      </p>
+      <div class="highlight">
+        <h3>Education Summary</h3>
+        <ul>
+            <li>Ph.D. in Civil Engineering, Clemson University (Est. December 2025)</li>
+            <li>M.S. in Civil Engineering, Clemson University (2020)</li>
+            <li>B.S. in Civil Engineering, Clemson University (2018)</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <p>Some things I’ve built...</p>
+      <a href="projects.html">More about my projects</a>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email me at: <a href="mailto:swrigh7@clemson.edu">swrigh7@clemson.edu</a></p>
+      <p>Email me at: <a href="mailto:sjwrigh7@gmail.com">sjwrigh7@gmail.com</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Stephen Jay Wright</p>
+  </footer>
+</body>
+</html>
+
