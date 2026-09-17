@@ -49,9 +49,11 @@ $mainFont:JetBrainsMono;
   --foreground: #384b49;
   --mainfont: #eafffd;
   --header: #995b36;
-  --highlighttext: #a9ffe1;
+  --highlighttext: #b8d4d2;
   --mainblockfill: #26333b; /*#4c7273*/
   --mainblockbound: #c08b57;
+  --highlightboound: #4c7273;
+  --linktext: #a9ffe1;
   /*
   --background: #373645;
   --foreground: #F8F8F2;
@@ -161,7 +163,7 @@ h1, h2, h3 {
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 1.5rem;
-  background: var(--mainblockbound);
+  background: var(--background);
   border: 2px solid var(--cyan);
   color: var(--highlighttext);
   border-radius: 16px;
